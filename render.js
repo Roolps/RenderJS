@@ -39,6 +39,15 @@ const styling = Object.freeze({
             "background-color": "pink"
         }
     },
+    "transitions": {
+        ".btn": [
+            "background-color .5s",
+            "color .5s"
+        ],
+        ".block": [
+            "background-color .5s"
+        ]
+    },
     "animations": {
         ".btn-1": {
             "background-color": "#8a3063",
