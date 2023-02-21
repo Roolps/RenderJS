@@ -26,5 +26,8 @@
     <script src="./render.js">
         // Script must be loaded AFTER the page is rendered...
     </script>
+    <script>
+        Object.keys(styling["transitions"]).forEach(key => { document.querySelectorAll(key).forEach(elem => {elem.style.transition = styling["transitions"][key].join(",")}) });
+    </script>
 </body>
 </html>
